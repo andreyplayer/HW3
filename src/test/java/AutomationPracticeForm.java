@@ -1,6 +1,4 @@
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
-import com.codeborne.selenide.selector.ByText;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -58,7 +56,6 @@ public class AutomationPracticeForm {
         $(".modal-body").shouldHave(text("NCR Delhi"));
 
         $("#closeLargeModal").click();
-
 
     }
 
